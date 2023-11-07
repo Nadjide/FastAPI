@@ -7,3 +7,4 @@ class Article(BaseModel):
     slug: str
     content: str
     author: str
+    link: Optional[str] = None
